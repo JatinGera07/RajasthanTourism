@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    <TextView
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Temprature = "/>
+        <TextView
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="-"
+            android:id="@+id/tempmin"/>
+    <TextView
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=" k"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Humidity = "/>
+            <TextView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="-"
+                android:id="@+id/humidity"/>
+            <TextView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="%"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:padding="10sp"
+            android:id="@+id/amir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/amerfort"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amer fort"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About and HISTORY\n\n
+Amber Fort is located Amer about 11 km from main city Jaipur. It was the capital of the Kachhawaha till Jaipur was made the official capital in 1727.
+Construction of the Fort was started by Raja Man Singh I in the year 1592.
+Maharaja Sawai Jai Singh II, the founder and the ruler of Jaipur city under his reign the fort was personalized in the 16th century and was completed by Sawai Jai Singh in the 18th Century and was finally completed in two centuries of consistent effort of three consequent kings following Raja Man Singh.
+It is now Designated as world heritage site: 2013 (37th session)
+Built with red and white sandstone. The fort still stands as a grand example of ancient Indian architecture. It is known for its blend of Rajput and Hindu style of architecture and mixture of Hindu and Muslim style of ornamentation. The carvings on the ceiling and the walls are extraordinary features of this fort. There are a series of gates in the fort and each one has a unique structure and architectural element to enjoy. You can find many buildings inside the fort including Diwan-e-Aam, SukhMandir, Sheesh Mahal and others.
+\n\nADDRESS:- Devisinghpura, Amer, Jaipur, Rajasthan 302001
+\n\n
+Visiting hours and charges : All days( Except of national holidays):- 8AM–5:30PM, 6:30–9:15PM
+Entrance Fee: 550 Per Person for Foreign Tourists and Rs.100 for Indians
+Phone: 0141 253 0293
+\n\n
+MAJOR ATTRACTIONS and things to do: -
+\n•	Elephant ride around the fort is a very important activity. The elephant ride ends by afternoon. So, plan ahead.
+\n•	You can also opt for four-wheel drive tour to and fro which includes one hour waiting time. It costs around 300 rupees.
+\n•	Light show at night
+\n•	Watching the illuminated fort from the bottom of the hill in the evening
+\n•	Visit to the museum and garden inside the fort
+\n•	Panoramic view from Char garden. You can view the whole city from here.
+\n•	Classical dance program that happens in the evening in Sukh Mahal. Tickets will be available in the ticket counter.
+\n•	Enjoying a meal at Surabhi restaurant inside the fort which serves various cuisines
+\n•	Enjoying puppet shows and traditional songs. These are available during dinner time.
+\n•	Turban museum is free to enter in the fort. You can find a large collection of turbans here.
+\n•	Apart from Siladevi temple, you can find a lot of temples in the palace along with old havelies.
+"/>
+    </LinearLayout>
+</ScrollView>

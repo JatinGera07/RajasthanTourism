@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Rajasthan Tourism</string>
+
+    <string-array name="cquestions">
+        <item>Rajasthan is the largest state in india by</item>
+        <item>keoladeo national park is famous for</item>
+        <item>Total no. of Districts in Rajasthan is</item>
+        <item>Who Built the Hawa Mahal in jaipur</item>
+        <item>The Mehrangarh Fort is located at</item>
+    </string-array>
+    <string-array name="coptions">
+        <item>Areawise</item>
+        <item>Population</item>
+        <item>Population Density</item>
+        <item>Literacy</item>
+        <item>Lion</item>
+        <item>Bird Species</item>
+        <item>Tiger</item>
+        <item>Deer</item>
+        <item>22</item>
+        <item>27</item>
+        <item>31</item>
+        <item>33</item>
+        <item>Maharana Pratap</item>
+        <item>Uday Singh</item>
+        <item>Madho Singh</item>
+        <item>Sawai Pratap Singh</item>
+        <item>Jaipur</item>
+        <item>Udaipur</item>
+        <item>Jodhpur</item>
+        <item>Ajmer</item>
+
+    </string-array>
+
+    <string-array name="correctanswers">
+        <item>Areawise</item>
+        <item>Bird Species</item>
+        <item>33</item>
+        <item>Sawai Pratap Singh </item>
+        <item>Jodhpur</item>
+    </string-array>
+</resources>

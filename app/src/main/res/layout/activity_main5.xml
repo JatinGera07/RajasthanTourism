@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<ImageView
+    android:id="@+id/his"
+    android:padding="10sp"
+    android:scaleType="fitXY"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/history1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT RAJASTHAN"
+        android:textSize="40sp"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rajasthan which is also known as the “Land of Maharajas” is the largest state of India, covering an area of about 342,239 sq. km. It comprises of 33 districts and its largest city is Jaipur, which is also its capital. Being located on the western side of the country, it shares its border with Pakistan to its northwest and to the west it shares its border with Sindh. To its north it has Punjab, Uttar Pradesh and Haryana to its northeast; to its southeast it has Madhya Pradesh and Gujarat to its southwest.  The glory of the state is retained by its majestic palaces, forts and monuments. The vibrant culture and rich heritage of this princely state draw innumerable tourists from across the globe."/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="Its major attractions include the ruins of Indus Valley Civilization, the oldest mountain range- Aravalli, a Jain pilgrimage site known as Dilwara Temples, Karni Mata Mandir, the only hill station of Rajasthan- Mount Abu, Keoladeo National Park (formerly known as Bharatpur National Park, the Ranthambore National Park and the Sariska Tiger Reserve.
+Some of its major architectural wonders include Chittorgarh fort - the largest fort in Asia, Mehrangarh Fort at Jodhpur, Jaipur “The Pink City” houses a number of well known tourists spots which include Hawa Mahal (Palace of Winds), Lake Palace, City Palace, Amber Palace, Jantar Mantar, Umaid Bhawan in Jodhpur, Jaisalmer Fort in Jaisalmer and many more.
+Not only this, the princely state of Rajasthan hosts varied colorful fairs and festivals which are known for their uniqueness and captivates a large number of tourists from India and overseas every year, some of which are Pushkar Fair, Jaipur Literature Festival, Jodhpur Flamenco  Gypsy Festival, Jaipur Heritage International Festival, Desert Festival, Urs at Ajmer, Teej and many more to give you a whole new experience, making your trip a memorable one!
+"/>
+</LinearLayout>
+
+</ScrollView>

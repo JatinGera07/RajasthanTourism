@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@android:color/black">
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:id="@+id/video"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/video"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+             <Button
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="7sp"
+                android:layout_marginRight="7sp"
+                android:layout_marginBottom="7sp"
+                android:text="Destinations"
+                 android:gravity="bottom|right"
+                android:textSize="25sp"
+                android:background="@drawable/button1di"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/but1"/>
+            <Button
+                android:layout_margin="7sp"
+                android:text="HISTORY and about"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="bottom|right"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button234"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/but2"
+                />
+            <Button
+                android:layout_margin="7sp"
+                android:text="Wanna be a tourist guide??"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="bottom|right"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button1di"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/but3"/>
+            <Button
+                android:text="FESTIVALS"
+                android:layout_margin="7sp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="bottom|right"
+                android:textColor="@android:color/white"
+                android:background="@drawable/festivals"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/but5"/>
+            <Button
+                android:layout_margin="7sp"
+                android:text="How well you know about Rajasthan"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="bottom|right"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rajasthan"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/but7"/>
+
+            <Button
+                android:layout_margin="7sp"
+                android:text="SPORTS"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="bottom|right"
+                android:textColor="@android:color/white"
+                android:background="@drawable/sports"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:id="@+id/but6"/>
+
+
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="CONTACT US"
+                android:layout_gravity="center"
+                android:textSize="15sp" />
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/email"
+                    android:layout_marginRight="5sp"
+                    android:text="   E-Mail"
+                    android:textColor="@android:color/white"
+                    android:drawableLeft="@drawable/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/contactstyle"/>
+                <Button
+                    android:layout_marginLeft="5sp"
+                    android:background="@drawable/contactstyle"
+                    android:textColor="@android:color/white"
+                    android:text="   Call US"
+                    android:id="@+id/contact"
+                    android:drawableLeft="@drawable/contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

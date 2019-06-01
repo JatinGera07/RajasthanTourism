@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/but211"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:background="@color/colorblack"
+            android:gravity="center"
+            android:text="Pushkar fair"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/but22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="39sp"
+            android:gravity="center"
+            android:text="ELephant festival"
+            android:textColor="@android:color/white"
+            android:background="@color/colorsand"/>
+        <Button
+            android:id="@+id/but23"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="desert festival"
+            android:textSize="42sp"
+            android:background="@color/colorblack"
+            />
+        <Button
+            android:id="@+id/but24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="42sp"
+            android:textColor="@android:color/white"
+            android:text="Mewar festival"
+            android:background="@color/colorsand"/>
+        <Button
+            android:id="@+id/but25"
+            android:text="summer festival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="42sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorblack"
+            />
+        <Button
+            android:id="@+id/but26"
+            android:text="urs fair"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="42sp"
+            android:background="@color/colorsand"/>
+        <Button
+            android:id="@+id/but27"
+            android:text="matasya festival"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:textSize="42sp"
+            android:background="@color/colorblack"
+            />
+        <Button
+            android:id="@+id/but28"
+            android:text="jaipur literature festival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorsand"/>
+        <Button
+            android:id="@+id/but29"
+            android:text="Rajasthan folk festival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorblack"/>
+
+    </LinearLayout>
+</ScrollView>

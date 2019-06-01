@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/but21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:background="@color/colorblack"
+        android:gravity="center"
+        android:text="Amer fort"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/but22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:text="hawa mahal"
+        android:textColor="@android:color/white"
+        android:background="@color/colorsand"/>
+    <Button
+        android:id="@+id/but23"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="city palace jaipur"
+        android:textSize="40sp"
+        android:background="@color/colorblack"
+        />
+    <Button
+        android:id="@+id/but24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:text="city palace udaipur"
+        android:background="@color/colorsand"/>
+    <Button
+        android:id="@+id/but25"
+        android:text="mehrangarh fort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorblack"
+        />
+    <Button
+        android:id="@+id/but26"
+        android:text="jantar mantar jaipur"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:background="@color/colorsand"/>
+    <Button
+        android:id="@+id/but27"
+        android:text="ranthambore national park"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:background="@color/colorblack"
+        />
+    <Button
+        android:id="@+id/but28"
+        android:text="jal mahal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="60sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorsand"/>
+</LinearLayout>
+</ScrollView>

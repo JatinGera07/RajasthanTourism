@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main9Activity"
+    android:orientation="vertical"
+    android:background="@drawable/rajasthan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timerTextView"
+        android:textSize="25sp"
+        android:text="Time Left : 20"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="20sp"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/a"
+            android:src="@drawable/heart"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b"
+            android:src="@drawable/heart"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/c"
+            android:src="@drawable/heart"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/java"
+        android:layout_marginTop="20sp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="  Question1:"
+        android:id="@+id/question"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="loadNextquestion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="option 1"
+            android:id="@+id/btn1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:background="@drawable/continu"
+
+            />
+        <Button
+            android:onClick="loadNextquestion"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn2"
+            android:text="Option 2"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/continu"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn3"
+            android:onClick="loadNextquestion"
+            android:layout_margin="20dp"
+            android:text="Option 3"
+            android:background="@drawable/continu"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:onClick="loadNextquestion"
+            android:id="@+id/btn4"
+            android:background="@drawable/continu"
+            android:text="Option 4"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

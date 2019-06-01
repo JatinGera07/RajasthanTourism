@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main12Activity"
+    android:orientation="vertical"
+    android:padding="10sp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camelfair"
+        android:scaleType="fitXY"
+        android:id="@+id/camel"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="Pushkar fair"/>
+    <TextView
+        android:textSize="17sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="“Pushkar Camel Fair” is treated as one of the biggest annual camel and livestock trading fair in the world. Besides helping business purpose (livestock trading), this five-day carnival is a fusion of camel, culture, and color; here not only display are thousands of camels, cattle and horses but various exhilarating activities for tourists like traditional folk performances, competitions and races(camel, horse, and donkey races) allure everyone to head to the state.
+
+Month : October / November
+Duration : 5 days
+Timings : All day
+Location : In and around Pushkar
+Highlights : Matka Phod, Longest Moustache, Bridal Competition, Camel Race and Aerobics are the main attractions of this fair. During this fair, foreigners can also take part in a cricket match with the local people. "/>
+
+
+</LinearLayout>
+</ScrollView>

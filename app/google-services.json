@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "74742360918",
+    "firebase_url": "https://rajasthantourism-e95a9.firebaseio.com",
+    "project_id": "rajasthantourism-e95a9",
+    "storage_bucket": "rajasthantourism-e95a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74742360918:android:f967af25285bce99",
+        "android_client_info": {
+          "package_name": "com.example.jatingera.raje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74742360918-il6r5mve44rsvqlpvalq9c8ams6hpuj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jatingera.raje",
+            "certificate_hash": "dcb22b7e8069a1f438b28d95048b920e2d567128"
+          }
+        },
+        {
+          "client_id": "74742360918-b9cnn8i8k843vn3hcrmbdmakicg4q1tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrJ3sworcwsjLmrWuyQaQzN9mzkjwZvbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74742360918-b9cnn8i8k843vn3hcrmbdmakicg4q1tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
