@@ -16,7 +16,7 @@ class Main4Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main4)
-        var imageurl = "http://api.openweathermap.org/data/2.5/forecast?id=1275665&APPID=984465f2d2d77755804deeb020359a0b"
+        var imageurl = "http://api.openweathermap.org/data/2.5/forecast?id=1275665&APPID=0fefe1c44010b8e1703033e6afda0053"
         val que = Volley.newRequestQueue(this)
         var animation= AnimationUtils.loadAnimation(this,R.anim.fadein)
 

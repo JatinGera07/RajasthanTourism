@@ -17,7 +17,6 @@ class CustomAdapter(listActivity:Main8Activity, Name: Array<String>) : BaseAdapt
 
     override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
         var view = layoutInflater.inflate(R.layout.custom_layout, p2, false)
-
         var name3=view.findViewById<TextView>(R.id.Nameee)
         var contact3=view.findViewById<TextView>(R.id.contactsss)
 
